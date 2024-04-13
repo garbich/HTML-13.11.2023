@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*BODY*/
+body {
+    width: auto;
+    height: auto;
+    background-color: #f6f6f6;
+    margin: 30px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*HEADER*/
+header {
+    font-weight: bold;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/*FOOTER*/
+footer {
+    width: 830px;
+    font-weight: bold;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer span {
+    display: flex;
+    justify-content: center;
+}
+
+/* HR */
+hr {
+    margin: 10px 0;
+}
+
+/* Paragraph */
+p {
+    font-size: small;
+}
+
+/*MAIN*/
+main {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+/*Grid container*/
+.grid-container {
+    width: auto;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+
+/*Grid item*/
+.grid-item {
+    padding: 20px;
+    border: 1px solid #bababa;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Img*/
+img {
+    object-fit: cover;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: auto;
+    height: auto;
+}
